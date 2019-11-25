@@ -1,0 +1,20 @@
+<nav>
+    <view slot="right">
+        <input type="text" class="ipn" placeholder="名称" />
+        <text class="admin">用户管理</text>
+    </view>
+</nav>
+<view class="user">
+
+    <view class="userItem" wx:for="{{userdata}}" wx:key="{{index}}">
+        <view class="userItem_info">
+            <image class='sizeModal-img' mode='aspectFill' src='/static/images/shezhi.png'></image>
+            <text>{{item.name}}</text>
+        </view>
+        <view class="operation">
+            <text class="iconfont iconicon-  {{item.gz? 'colorstyle': ''}}" data-index="{{index}}" bind:tap="selectUser"></text>
+            <text class="iconfont iconshoucang {{item.sc? 'colorstyle': ''}}" data-index="{{index}}" bind:tap="selectColl"></text>
+        </view>
+    </view>
+
+</view>

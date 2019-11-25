@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/infomore/infomore",
+    "pages/infomoremore/infomoremore",
+    "pages/setup/setup",
+    "pages/box/box",
+    "pages/printer/printer",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "易抄云",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "#1396DB",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "报表统计",
+        "iconPath": "/static/images/tongji.png",
+        "selectedIconPath": "/static/images/tongji1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "实时信息",
+        "iconPath": "/static/images/xinxi.png",
+        "selectedIconPath": "/static/images/xinxi1.png"
+      },
+      {
+        "pagePath": "pages/setup/setup",
+        "text": "设置",
+        "iconPath": "/static/images/shezhi.png",
+        "selectedIconPath": "/static/images/shezhi1.png"
+      }
+    ]
+  }
+  
+}

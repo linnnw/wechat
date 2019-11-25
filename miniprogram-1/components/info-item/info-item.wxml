@@ -1,0 +1,23 @@
+<view class="info_item" wx:for='{{real}}' wx:key='{{index}}'>
+    <view class="opt">
+        <text class="opt_text iconfont iconlixian">离线</text>
+        <text class="opt_text iconfont iconwarning" wx:if="{{item.status.errs}}">提醒</text>
+        <text class="opt_text iconfont" bind:tap='more' data-index="{{index}}">更多</text>
+    </view>
+    <view class="body">
+        <text>设备名称</text>
+        <text></text>
+    </view>
+    <view class="body" wx:for='{{item.basic}}' wx:key='{{index}}' wx:if="{{index < 3 }}">
+        <text>{{item.name}}</text>
+        <text>{{item.msg}}<text class="ye" wx:if="{{index == 2}}">页</text></text>
+    </view>
+    <view class="body">
+        <text>设备位置</text>
+        <text>{{item.area}}</text>
+    </view>
+    <view class="body">
+        <text>最新记录</text>
+        <text>{{item.time}}</text>
+    </view>
+</view>

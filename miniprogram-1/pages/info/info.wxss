@@ -1,0 +1,11 @@
+/* pages/info/info.wxss */
+page {
+    background-color: #f0f0f0;
+}
+
+.ipn {
+    background-color: #fff;
+    padding: 20rpx;
+    margin-right: 20rpx;
+    font-size: 28rpx;
+}

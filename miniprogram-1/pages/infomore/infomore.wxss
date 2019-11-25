@@ -1,0 +1,9 @@
+/* pages/infomore/infomore.wxss */
+
+.btn {
+    background-color: #f10;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(111, 1111, 111, .5);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

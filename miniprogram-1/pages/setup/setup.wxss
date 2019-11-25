@@ -1,0 +1,106 @@
+.search {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15rpx;
+}
+
+.li .key,
+.li .val {
+    display: inline-block;
+    margin: 0 25rpx 0 15rpx;
+}
+
+.bgc_lv {
+    background-color: #276100;
+    color: #fff;
+    border-radius: 6rpx;
+}
+
+.equipment {
+    padding: 20rpx 0;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+.equipment:last-child {
+    border: 0;
+}
+
+.more {
+    width: 46rpx;
+    height: 40rpx;
+    border-top: 2px solid #000;
+    position: absolute;
+    top: 30rpx;
+    right: 60rpx;
+    box-sizing: border-box;
+}
+
+.more::after {
+    content: "";
+    position: absolute;
+    top: 12rpx;
+    width: 100%;
+    height: 4rpx;
+    background-color: #000;
+}
+
+.more::before {
+    content: "";
+    position: absolute;
+    top: 26rpx;
+    width: 100%;
+    height: 4rpx;
+    background-color: #000;
+}
+
+.userItem {
+    margin: 30rpx;
+    position: relative;
+}
+
+.userItem_info {
+    height: 70rpx;
+    background-color: #E4531F;
+    border-radius: 40rpx;
+    display: inline-block;
+    padding-right: 40rpx;
+    line-height: 100rpx;
+    position: relative;
+}
+
+.userItem_info text {
+    color: #fff;
+    position: relative;
+    top: -24rpx;
+    left: 10rpx;
+}
+
+.sizeModal-img {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.iconfont {
+    color: #000;
+}
+
+.h70 {
+    display: inline-block;
+    height: 70rpx;
+    width: 70rpx;
+    border-radius: 50%;
+    background-color: #1EAAE8;
+    font-size: 70rpx;
+    margin-left: 20rpx;
+    position: relative;
+}
+
+.h70 text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}

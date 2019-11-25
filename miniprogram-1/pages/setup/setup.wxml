@@ -1,0 +1,21 @@
+<nav>
+    <view slot="left" class="userItem_info">
+        <image class='sizeModal-img' mode='aspectFill' src='/static/images/shezhi.png'></image>
+        <text>神经蛙</text>
+    </view>
+    <view slot="right">
+        <view class="h70" bind:tap='jumpUser'><text class="iconfont icontongxunlu"></text></view>
+        <view class="h70"><text class="iconfont iconerweima"></text></view>
+
+    </view>
+</nav>
+
+<input class="search" placeholder="网关名称/设备名称/打印机IP" type="text" />
+
+<view class="equipment" wx:for="{{setup}}" wx:key="{{index}}">
+    <view class="li" wx:for="{{item.data}}" wx:key="{{index}}">
+        <view class="key">{{item.name}}</view>
+        <view class="val {{index==3?'bgc_lv':''}}">{{item.msg}}</view>
+    </view>
+    <view class="more" bind:tap='more'></view>
+</view>

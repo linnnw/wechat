@@ -1,0 +1,33 @@
+<nav>
+    <view slot="right">
+        <view class="h70" bind:tap='jumpPrinter'><text class="iconfont iconSettings-Help"></text></view>
+        <view class="h70"><text class="iconfont iconerweima"></text></view>
+
+    </view>
+</nav>
+<view class="title_h1">
+    盒子
+</view>
+<view class="box">
+
+    <radio-group class='radio-group' bindchange="radioChange">
+        <radio class='radio'>
+            <text class="loginLab"> 手动输入</text>
+        </radio>
+        <radio class='radio' checked>
+            <text class="loginLab"> 自动获取</text>
+        </radio>
+    </radio-group>
+
+    <view class="title">盒子IP</view>
+    <input type="text" />
+
+    <view class="title">掩码</view>
+    <input type="text" />
+
+    <view class="title">网关</view>
+    <input type="text" />
+
+    <button class="save" size='mini'>保存</button>
+    <button size='mini' bind:tap='back'>关闭</button>
+</view>

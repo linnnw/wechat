@@ -1,0 +1,60 @@
+.userItem {
+    margin: 20rpx;
+    position: relative;
+}
+
+.userItem_info {
+    height: 100rpx;
+    background-color: #E4531F;
+    border-radius: 40rpx;
+    display: inline-block;
+    padding-right: 40rpx;
+    line-height: 100rpx;
+    position: relative;
+}
+
+.userItem_info text {
+    color: #fff;
+    position: relative;
+    top: -36rpx;
+    left: 10rpx;
+}
+
+.sizeModal-img {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.operation {
+    position: absolute;
+    right: 10rpx;
+    top: 6rpx;
+}
+
+.user .iconfont {
+    color: #000;
+    font-size: 80rpx;
+    margin-left: 20rpx;
+}
+
+.colorstyle {
+    color: #1EAAE8!important;
+}
+
+.ipn {
+    height: 50rpx;
+    width: 200rpx;
+    border-bottom: 1px solid #999;
+    float: right;
+    margin-right: 200rpx;
+    margin-top: 10rpx;
+}
+
+.admin {
+    position: absolute;
+    top: 16rpx;
+    right: 0;
+    font-weight: 700;
+}

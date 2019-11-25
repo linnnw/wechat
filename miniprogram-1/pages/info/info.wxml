@@ -1,0 +1,7 @@
+<!--pages/info/info.wxml-->
+<view class="info">
+  <input placeholder="搜索一下" class="ipn" type="text"/>
+    
+  <info-item/>
+  
+</view>

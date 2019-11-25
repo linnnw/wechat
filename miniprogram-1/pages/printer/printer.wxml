@@ -1,0 +1,21 @@
+<nav>
+    <view slot="right">
+        <view class="h70"><text class="iconfont iconerweima"></text></view>
+
+    </view>
+</nav>
+<view class="title_h1">
+    打印机
+</view>
+<view class="box">
+
+
+    <view class="title">打印机IP</view>
+    <input type="text" />
+
+    <view class="title">设备名称</view>
+    <input type="text" />
+
+    <button class="save" size='mini'>保存</button>
+    <button size='mini' bind:tap='back'>关闭</button>
+</view>
